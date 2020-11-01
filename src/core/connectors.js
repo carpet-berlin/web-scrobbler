@@ -1245,7 +1245,7 @@ const connectors = [{
 	js: 'connectors/radioco.js',
 	id: 'radioco',
 }, {
-	label: 'R-a-dio',
+	label: 'R/a/dio',
 	matches: [
 		'*://r-a-d.io/*',
 	],
@@ -1268,7 +1268,7 @@ const connectors = [{
 }, {
 	label: 'Watch2Gether',
 	matches: [
-		'*://www.watch2gether.com/*',
+		'*://w2g.tv/*',
 	],
 	js: 'connectors/watch2gether.js',
 	id: 'watch2gether',
@@ -1583,6 +1583,109 @@ const connectors = [{
 	],
 	js: 'connectors/truckersfm.js',
 	id: 'truckersfm',
+}, {
+	id: 'winampify',
+	label: 'Winampify',
+	js: 'connectors/winampify.js',
+	matches: [
+		'*://winampify.io/*',
+	],
+}, {
+	label: 'detektor.fm',
+	matches: [
+		'*://detektor.fm/*',
+	],
+	js: 'connectors/detektorfm.js',
+	id: 'detektorfm',
+}, {
+	label: 'iBroadcast',
+	matches: [
+		'*://media.ibroadcast.com/*',
+	],
+	js: 'connectors/ibroadcast.js',
+	id: 'ibroadcast',
+}, {
+	label: 'Radio7',
+	matches: [
+		'*://radio7.lv/*',
+	],
+	js: 'connectors/radio7.js',
+	id: 'radio7lv',
+}, {
+	label: 'RecMusic',
+	matches: [
+		'*://recmusic.jp/*',
+	],
+	js: 'connectors/recmusic.js',
+	id: 'recmusic',
+}, {
+	label: 'Eggs',
+	matches: [
+		'*://eggs.mu/*',
+	],
+	js: 'connectors/eggs.js',
+	id: 'eggs',
+}, {
+	label: 'Jamstash',
+	matches: [
+		'*://jamstash.com/*',
+	],
+	js: 'connectors/jamstash.js',
+	id: 'jamstash',
+}, {
+	label: 'SubFire',
+	matches: [
+		'*://p.subfireplayer.net/*',
+	],
+	js: 'connectors/subfire.js',
+	id: 'subfire',
+}, {
+	label: 'Idagio',
+	matches: [
+		'*://app.idagio.com/*',
+	],
+	js: 'connectors/idagio.js',
+	id: 'idagio',
+}, {
+	label: 'Relax FM',
+	matches: ['*://relax-fm.ru/*'],
+	js: 'connectors/relaxfm.js',
+	id: 'relaxfm',
+}, {
+	label: 'Laut.fm',
+	matches: ['*://laut.fm/*'],
+	js: 'connectors/laut.fm.js',
+	id: 'laut.fm',
+}, {
+	label: 'Magnatune',
+	matches: ['*://magnatune.com/*'],
+	js: 'connectors/magnatune.js',
+	id: 'magnatune',
+}, {
+	label: 'Libre.fm',
+	matches: ['*://libre.fm/*'],
+	js: 'connectors/librefm.js',
+	id: 'librefm',
+}, {
+	label: 'Brain.fm',
+	matches: ['*://www.brain.fm/*'],
+	js: 'connectors/brainfm.js',
+	id: 'brainfm',
+}, {
+	label: 'bullofheaven.com',
+	matches: ['*://bullofheaven.com/*'],
+	js: 'connectors/bullofheaven.com.js',
+	id: 'bullofheavencom',
+}, {
+	label: 'All Classical Portland',
+	matches: ['*://player.allclassical.org/*'],
+	js: 'connectors/allclassical.org.js',
+	id: 'allclassicalportland',
+}, {
+	label: 'Migu Music',
+	matches: ['*://music.migu.cn/*'],
+	js: 'connectors/migu-music.js',
+	id: 'migu-music',
 }];
 
 define(() => connectors);

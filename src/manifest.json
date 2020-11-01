@@ -1,6 +1,6 @@
 {
   "name": "Web Scrobbler",
-  "version": "2.35.0",
+  "version": "2.37.0",
 
   "description": "__MSG_extDescription__",
   "icons": {
@@ -15,6 +15,7 @@
 
   "web_accessible_resources": [
     "connectors/deezer-dom-inject.js",
+    "connectors/eggs-dom-inject.js",
     "connectors/musickit-dom-inject.js",
     "connectors/vk-dom-inject.js",
     "connectors/yandex-music-dom-inject.js",
